@@ -1,0 +1,5 @@
+set -tmpdir "D:/belgeler/EE362_workspace/UDC/xst/projnav.tmp"
+set -xsthdpdir "D:/belgeler/EE362_workspace/UDC/xst"
+elaborate
+-ifn timer.prj
+-ifmt mixed

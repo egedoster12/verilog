@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\belgeler\EE362_workspace\UDC\UDC.ncd
+OUTFILE=D:\belgeler\EE362_workspace\UDC\UDC.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=D:\belgeler\EE362_workspace\UDC
+LICENSE=WebPack
+USER_INFO=211717612_0_0_036
