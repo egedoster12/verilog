@@ -1,0 +1,5 @@
+set -tmpdir "D:/belgeler/EE362_workspace/LEDCPUwithROM/xst/projnav.tmp"
+set -xsthdpdir "D:/belgeler/EE362_workspace/LEDCPUwithROM/xst"
+elaborate
+-ifn LedCPUcore.prj
+-ifmt mixed

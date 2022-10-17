@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/belgeler/EE362_workspace/LEDCPUwithROM/LedCPUwithROM.xst" -ofn "D:/belgeler/EE362_workspace/LEDCPUwithROM/LedCPUwithROM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LedCPUwithROM.ucf -p xc3s100e-cp132-4 LedCPUwithROM.ngc LedCPUwithROM.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o LedCPUwithROM_map.ncd LedCPUwithROM.ngd LedCPUwithROM.pcf 
+par -w -intstyle ise -ol high -t 1 LedCPUwithROM_map.ncd LedCPUwithROM.ncd LedCPUwithROM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LedCPUwithROM.twx LedCPUwithROM.ncd -o LedCPUwithROM.twr LedCPUwithROM.pcf -ucf LedCPUwithROM.ucf 
+bitgen -intstyle ise -f LedCPUwithROM.ut LedCPUwithROM.ncd 
